@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 // Ruta a la pagina administracion del sitio
 Route::name('admin_path')->get('/admin', 'PagesController@admin');
