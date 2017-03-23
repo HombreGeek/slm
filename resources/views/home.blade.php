@@ -47,20 +47,22 @@
 					<li>
 						<i class="sl sl-icon-call-in"></i>
 						<div class="widget-content">
-							<span class="title">Questions?</span>
-							<span class="data">(123) 123-456 </span>
+							<span class="title">¿Preguntas?</span>
+							<span class="data">+57 (095) 5898143 </span>
 						</div>
 					</li>
 
 					<li>
 						<i class="sl sl-icon-location"></i>
 						<div class="widget-content">
-							<span class="title">Our Office</span>
-							<span class="data">45 Park Avenue, NY</span>
+							<span class="title">Nuestra Oficina</span>
+							<span class="data">Cra.23 N°13B-46</span>
+							<span class="data">Barrio Garupal</span>
+							<span class="data">Valledupar - Cesar</span>
 						</div>
 					</li>
 
-					<li class="with-btn"><a href="contact.html" class="button border medium">Request Service</a></li>
+					<li class="with-btn"><a href="contact.html" class="button border medium">Solicitar Servicio</a></li>
 				</ul>
 			</div>
 			<div class="clearfix"></div>
@@ -81,7 +83,7 @@
 			<i class="fa fa-reorder menu-trigger"></i>
 			<i class="fa fa-search search-trigger"></i>
 	      	<form action="#" method="get" class="responsive-search" />
-	      		<input type="text" onblur="if(this.value=='')this.value='to search type and hit enter';" onfocus="if(this.value=='to search type and hit enter')this.value='';" value="to search type and hit enter" />
+	      		<input type="text" onblur="if(this.value=='')this.value='Para buscar, escribe y pulsa enter';" onfocus="if(this.value=='Para buscar, escribe y pulsa enter')this.value='';" value="Para buscar, escribe y pulsa enter" />
 	      	</form>
 		</div>
 		
@@ -91,7 +93,7 @@
 			<!-- Search Form -->
 			<div class="search-container">
 		      	<form action="#" method="get" />
-		      		<input type="text" name="s" id="s" onblur="if(this.value=='')this.value='to search type and hit enter';" onfocus="if(this.value=='to search type and hit enter')this.value='';" value="to search type and hit enter" />
+		      		<input type="text" name="s" id="s" onblur="if(this.value=='')this.value='Para buscar, escribe y pulsa enter';" onfocus="if(this.value=='Para buscar, escribe y pulsa enter')this.value='';" value="Para buscar, escribe y pulsa enter" />
 		      	</form>
 		      	<div class="close-search"><a class="fa fa-times" href="#"></a></div>
 			</div>
@@ -99,7 +101,7 @@
 			<ul class="menu" id="responsive">
 
 				<li class="dropdown">
-					<a href="index.html" class="current">Home</a>
+					<a href="index.html" class="current">Inicio</a>
 					<ul>
 						<li><a href="index.html">Home 1</a></li>
 						<li><a href="index-2.html">Home 2</a></li>
@@ -107,9 +109,47 @@
 						<li><a href="index-4.html">Home 4</a></li>
 					</ul>
 				</li>
+				<li>
+					<a href="#">Somos</a>
+					<div class="mega two-cols">
+
+						<div class="mega-section">
+							<ul>
+								<li><span class="mega-headline">Elements</span></li>
+								<li><a href="shortcodes.html">Shortcodes</a></li>
+								<li><a href="typography.html">Typography</a></li>
+								<li><a href="pricing-tables.html">Pricing Tables</a></li>
+								<li><a href="icons.html">Icons</a></li>
+							</ul>
+						</div>
+
+						<div class="mega-section">
+							<ul>
+								<li><span class="mega-headline">Example Pages</span></li>
+								<li><a href="all-projects-full-width.html">Projects</a></li>
+								<li><a href="services-1.html">Services List</a></li>
+								<li><a href="shop.html">Shop</a></li>
+								<li><a href="contact.html">Contactenos</a></li>
+							</ul>
+						</div>
+
+					</div>
+				</li>
+				
 
 				<li class="dropdown">
-					<a href="#">Projects</a>
+					<a href="#">Servicios</a>
+					<ul>
+						<li><a href="services-1.html">Services List 1</a></li>
+						<li><a href="services-2.html">Services List 2</a></li>
+						<li><a href="single-service-1.html">Single Service Page 1</a></li>
+						<li><a href="single-service-2.html">Single Service Page 2</a></li>
+					</ul>
+				</li>
+
+				
+				<li class="dropdown">
+					<a href="#">Proyectos</a>
 					<ul>
 						<li><a href="project-categories.html">Categories</a></li>
 						<li><a href="all-projects.html">All Projects</a></li>
@@ -130,44 +170,6 @@
 				</li>
 
 				<li class="dropdown">
-					<a href="#">Services</a>
-					<ul>
-						<li><a href="services-1.html">Services List 1</a></li>
-						<li><a href="services-2.html">Services List 2</a></li>
-						<li><a href="single-service-1.html">Single Service Page 1</a></li>
-						<li><a href="single-service-2.html">Single Service Page 2</a></li>
-					</ul>
-				</li>
-
-				<li>
-					<a href="#">Pages</a>
-					<div class="mega two-cols">
-
-						<div class="mega-section">
-							<ul>
-								<li><span class="mega-headline">Elements</span></li>
-								<li><a href="shortcodes.html">Shortcodes</a></li>
-								<li><a href="typography.html">Typography</a></li>
-								<li><a href="pricing-tables.html">Pricing Tables</a></li>
-								<li><a href="icons.html">Icons</a></li>
-							</ul>
-						</div>
-
-						<div class="mega-section">
-							<ul>
-								<li><span class="mega-headline">Example Pages</span></li>
-								<li><a href="all-projects-full-width.html">Projects</a></li>
-								<li><a href="services-1.html">Services List</a></li>
-								<li><a href="shop.html">Shop</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</div>
-
-
-					</div>
-				</li>
-
-				<li class="dropdown">
 					<a href="#">Shop</a>
 					<ul>
 						<li><a href="shop.html">Shop</a></li>
@@ -184,7 +186,7 @@
 					</ul>
 				</li>
 
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="contact.html">Contáctenos</a></li>
 
 
 				<!-- Search Icon-->		
@@ -221,7 +223,7 @@
 				<div class="tp-caption tp-shape tp-shapewrapper custom-caption tp-resizeme rs-parallaxlevel-0" id="slide-1-layer-1" data-x="['left','left','left','left']" data-hoffset="['0']" data-y="['middle','middle','middle','middle']" data-voffset="['0']" data-width="520" data-height="auto" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:0;opacity:0;s:1000;e:Power2.easeOutExpo;s:400;e:Power2.easeOutExpo" data-transform_out="" data-mask_in="x:0px;y:[20%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-responsive_offset="on">
 
 					<!-- Caption Content -->
-					<div class="caption-title">Carpentry Services</div>
+					<div class="caption-title">Maquinaria Pesada</div>
 					<div class="caption-text">We specialize in a number of framing, trim and finish carpentry services. Our goal is complete satisfaction.</div>
 					<a href="contact.html" class="button medium">Solicitar Servicio</a>
 				</div>
@@ -237,7 +239,7 @@
 				<div class="tp-caption tp-shape tp-shapewrapper custom-caption tp-resizeme rs-parallaxlevel-0" id="slide-2-layer-2" data-x="['left','left','left','left']" data-hoffset="['0']" data-y="['middle','middle','middle','middle']" data-voffset="['0']" data-width="520" data-height="auto" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:0;opacity:0;s:1000;e:Power2.easeOutExpo;s:400;e:Power2.easeOutExpo" data-transform_out="" data-mask_in="x:0px;y:[20%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-responsive_offset="on">
 
 					<!-- Caption Content -->
-					<div class="caption-title">Interior Painting</div>
+					<div class="caption-title">Concreto</div>
 					<div class="caption-text"> A new coat of paint or is easy ways to refresh your home. We know what makes a great paint job.</div>
 					<a href="contact.html" class="button medium">Solicitar servicio</a>
 				</div>
@@ -253,7 +255,7 @@
 				<div class="tp-caption tp-shape tp-shapewrapper custom-caption tp-resizeme rs-parallaxlevel-0" id="slide-3-layer-3" data-x="['left','left','left','left']" data-hoffset="['0']" data-y="['middle','middle','middle','middle']" data-voffset="['0']" data-width="520" data-height="auto" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:0;opacity:0;s:1000;e:Power2.easeOutExpo;s:400;e:Power2.easeOutExpo" data-transform_out="" data-mask_in="x:0px;y:[20%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-responsive_offset="on">
 
 					<!-- Caption Content -->
-					<div class="caption-title">Professional Tiling</div>
+					<div class="caption-title">Acero Figurado</div>
 					<div class="caption-text">Highly experienced in residential and commercial tiling, bathroom renevations, waterproofing, silicone work and soundproofing.</div>
 					<a href="contact.html" class="button medium">Solicitar servicio</a>
 				</div>
@@ -804,87 +806,7 @@
 <script type="text/javascript" src="{{ asset('js/extensions/revolution.extension.video.min.js') }}"></script>
 
 
-<!-- Style Switcher
-================================================== -->
-<script src="{{ asset('js/switcher.js') }}"></script>
 
-<div id="style-switcher">
-	<h2>Style Switcher <a href="#"></a></h2>
-	
-	<div>
-		<h3>Predefined Colors</h3>
-		<ul class="colors" id="color1">
-			<li><a href="#" class="blue" title="Blue"></a></li>
-			<li><a href="#" class="green" title="Green"></a></li>
-			<li><a href="#" class="orange" title="Orange"></a></li>
-			<li><a href="#" class="navy" title="Navy"></a></li>
-			<li><a href="#" class="yellow" title="Yellow"></a></li>
-			<li><a href="#" class="peach" title="Peach"></a></li>
-			<li><a href="#" class="beige" title="Beige"></a></li>
-			<li><a href="#" class="purple" title="Purple"></a></li>
-			<li><a href="#" class="celadon" title="Celadon"></a></li>
-			<li><a href="#" class="pink" title="Pink"></a></li>
-			<li><a href="#" class="red" title="Red"></a></li>
-			<li><a href="#" class="brown" title="Brown"></a></li>
-			<li><a href="#" class="cherry" title="Cherry"></a></li>
-			<li><a href="#" class="cyan" title="Cyan"></a></li>
-			<li><a href="#" class="gray" title="Gray"></a></li>
-			<li><a href="#" class="olive" title="Olive"></a></li>
-		</ul>
-		
-		<h3>Layout Style</h3>
-		<div class="layout-style">
-			<select id="layout-style"> 
-				<option value="2" />Wide
-				<option value="1" />Boxed
-			</select>
-		</div>
-	
-		<h3>Background Image</h3>
-		<ul class="colors bg" id="bg">
-			<li><a href="#" class="bg1"></a></li>
-			<li><a href="#" class="bg2"></a></li>
-			<li><a href="#" class="bg3"></a></li>
-			<li><a href="#" class="bg4"></a></li>
-			<li><a href="#" class="bg5"></a></li>
-			<li><a href="#" class="bg6"></a></li>
-			<li><a href="#" class="bg7"></a></li>
-			<li><a href="#" class="bg8"></a></li>
-			<li><a href="#" class="bg9"></a></li>
-			<li><a href="#" class="bg10"></a></li>
-			<li><a href="#" class="bg11"></a></li>
-			<li><a href="#" class="bg12"></a></li>
-			<li><a href="#" class="bg13"></a></li>
-			<li><a href="#" class="bg14"></a></li>
-			<li><a href="#" class="bg15"></a></li>
-			<li><a href="#" class="bg16"></a></li>
-		</ul>
-		
-		<h3>Background Color</h3>
-		<ul class="colors bgsolid" id="bgsolid">
-			<li><a href="#" class="green-bg" title="Green"></a></li>
-			<li><a href="#" class="blue-bg" title="Blue"></a></li>
-			<li><a href="#" class="orange-bg" title="Orange"></a></li>
-			<li><a href="#" class="navy-bg" title="Navy"></a></li>
-			<li><a href="#" class="yellow-bg" title="Yellow"></a></li>
-			<li><a href="#" class="peach-bg" title="Peach"></a></li>
-			<li><a href="#" class="beige-bg" title="Beige"></a></li>
-			<li><a href="#" class="purple-bg" title="Purple"></a></li>
-			<li><a href="#" class="red-bg" title="Red"></a></li>
-			<li><a href="#" class="pink-bg" title="Pink"></a></li>
-			<li><a href="#" class="celadon-bg" title="Celadon"></a></li>
-			<li><a href="#" class="brown-bg" title="Brown"></a></li>
-			<li><a href="#" class="cherry-bg" title="Cherry"></a></li>
-			<li><a href="#" class="cyan-bg" title="Cyan"></a></li>
-			<li><a href="#" class="gray-bg" title="Gray"></a></li>
-			<li><a href="#" class="olive-bg" title="Olive"></a></li>
-		</ul>
-	</div>
-	
-	<div id="reset"><a href="#" class="button color">Reset</a></div>
-		
-</div>
-<!-- Style Switcher / End -->
 
 
 </div>

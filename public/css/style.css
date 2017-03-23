@@ -100,7 +100,7 @@ body { border-top: 5px solid #666;}
 
 /* Header Widget */
 .header-widget {
-	margin-top: 8px;
+	margin-top: 18px; /* margin-top: 8px; */
 	float: right;
 	padding-left: 0;
 }
@@ -111,7 +111,7 @@ body { border-top: 5px solid #666;}
 	vertical-align: middle;
 	margin-right: 20px;
 	padding-right: 35px;
-	line-height: 24px;
+	line-height: 20px; /* line-height: 24px;*/
 	position: relative;
 }
 
