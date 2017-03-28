@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Ruta a la pagina de inicio del sitio
+Route::name('home_path')->get('/', 'PagesController@home');
+
 // Ruta a la pagina administracion del sitio
 Route::name('admin_path')->get('/admin', 'PagesController@admin');

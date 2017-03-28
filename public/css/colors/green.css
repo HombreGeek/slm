@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------- */
-/* Blue #0081db
+/*Green #0081db
 ---------------------------------------------------------------------- */
 
 a,
@@ -28,7 +28,7 @@ a.button.border,
 .menu li.cart-icon a:hover,
 .menu  li.search a:hover,
 .tabs-nav li.active a {
-	color: #0081db;
+	color: #008000;
 	
 }
 
@@ -46,7 +46,7 @@ a.button.border:hover,
 .custom-caption,
 .ui-accordion .ui-accordion-header-active:hover,
 .ui-accordion .ui-accordion-header-active {
-	border-color: #0081db;
+	border-color: #008000;
 }
 
 .qtyplus:hover,
@@ -58,12 +58,12 @@ a.button.border:hover,
 .flex-next:hover,
 a.button.border::before,
 .hover-border {
-    background: #0081db;
+    background: #008000;
 }
 
 .menu ul .sfHover li a:hover,
 .mega a:hover {
-	background-color: #0081db !important;
+	background-color: #008000 !important;
 }
 
 #logo img,
@@ -105,10 +105,10 @@ table.basic-table th,
 .services-list li a:hover,
 .pagination-next-prev ul li a:hover,
 mark.color {
-	background-color: #0081db;
+	background-color: #008000;
 }
 
 
 .service .service-overlay { background-color: rgba(0,129,219,0.95); }
 
-@media (max-width: 991px) { .tabs-nav li.active a { background-color: #0081db; } }
+@media (max-width: 991px) { .tabs-nav li.active a { background-color: #008000; } }

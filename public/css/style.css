@@ -404,7 +404,7 @@ li.dropdown ul li:hover a.with-ul:after {
 
 /* ---------------------------------- */
 /* Search / Cart Icon
-------------------------------------- */
+------------------------------------- 
 .menu li.cart-icon,
 .menu li.search {
 	right: 15px;
@@ -529,6 +529,139 @@ li.dropdown ul li:hover a.with-ul:after {
 }
 
 .menu li.cart-icon a:hover,
+.menu  li.search a:hover,
+.close-search a:hover {
+	color: #666;
+}
+*/
+
+/* ---------------------------------- */
+/* Search / User Icon
+------------------------------------- */
+.menu li.user-icon,
+.menu li.search {
+	right: 15px;
+	position: absolute;
+}
+
+.menu li.user-icon a,
+.menu  li.search a {
+	padding: 9px 10px;
+	padding-right: 0px;
+	top: 14px;
+	right: 0;
+	margin: 0;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	color: #444;
+}
+
+.menu li.user-icon { right: 55px; }
+.menu li.user-icon a { top: 15px; }
+
+.menu li.user-icon i {
+	font-size: 28px;
+}
+
+.cart-counter {
+	position: absolute;
+	top: -2px;
+	right: -12px;
+	color: #fff;
+	width: 24px;
+	height: 24px;
+	background-color: #666;
+	border-radius: 50%;
+	font-size: 11px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff !important;
+	font-weight: 500;
+	border: 2px solid #fff;
+	letter-spacing: -0.5px;
+}
+
+.menu li.user-icon a,
+.close-search a,
+.menu li.search a {
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	-ms-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+
+.search-container {
+	z-index: 1000;
+  	background: #fff;
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+	display: none;
+	border-top: 1px solid #e0e0e0;
+}
+
+.search-container:after {
+	position: absolute;
+	content: "";
+	width: 30px;
+	height: 100%;
+	right: 0;
+	background-color: #fff;
+	top: -1px;
+}
+
+.search-container input {
+	width: 100%;
+	border: none !important;
+	float: left;
+	padding: 12px 0 !important;
+	margin: 10px 0 0 0 !important;
+	font-size: 20px !important;
+	position: relative;
+  	background: #fff !important;
+  	color: #808080;
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	letter-spacing: 0;
+	font-weight: 500;  	text-align: center;
+}
+
+.search-container input:focus {
+	border: 0;
+  	background: #fff;
+	color: #666;
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+
+.search a i { font-size: 18px; }
+
+.close-search a {
+	font-size: 18px;
+	position: absolute;
+	color: #333;
+	padding: 10px;
+	padding-right: 0;
+	top: 16px;
+	right: 32px;
+	float: right;
+	margin: 0;
+	background-color: #fff;
+	outline: none;
+}
+/* coloque use-icon pero debe de ser user-icon */
+.menu li.use-icon a:hover,
 .menu  li.search a:hover,
 .close-search a:hover {
 	color: #666;
@@ -1363,7 +1496,7 @@ a.see-all::after { display: none !important; }
 }
 
 #backtotop a:after {
-	content: "ï·";
+	content: "▲";
 	font-family: "FontAwesome";
 	position: relative;
 	display: block;
@@ -1442,8 +1575,8 @@ ul.footer-links {
 
 .footer-links li:before {
 	font-family: "FontAwesome";
-	font-size: 12px;
-	content: "ïƒš";
+	font-size: 10px;
+	content: "▌";
 	color: #fff;
 	position: absolute;
 	left: 0;
@@ -1459,13 +1592,21 @@ ul.footer-links {
 	border-top: 1px solid #333;
 	margin-top: 35px;
 	text-align: center;
-	padding: 30px 0;
+	/* padding: 10px 0;*/
+	display: inline-block;
+	width: 100%;
+}
+
+.creado-por {
+	font-size: 12px;
+	text-align: center;	
 	display: inline-block;
 	width: 100%;
 }
 
 .social-icons.fixed h4 { font-size: 18px !important; }
 .copyrights a { color: #ddd; }
+.creado-por a { color: #0080c0; }
 
 
 /* ---------------------------------- */
