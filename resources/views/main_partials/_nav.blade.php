@@ -26,16 +26,16 @@
 
 				<li class="dropdown">
 					<a href="index.html" class="current">Inicio</a>
-					<ul>
+					{{-- <ul>
 						<li><a href="index.html">Home 1</a></li>
 						<li><a href="index-2.html">Home 2</a></li>
 						<li><a href="index-3.html">Home 3</a></li>
 						<li><a href="index-4.html">Home 4</a></li>
-					</ul>
+					</ul> --}}
 				</li>
 				<li>
 					<a href="#">Somos</a>
-					<div class="mega two-cols">
+					{{-- <div class="mega two-cols">
 
 						<div class="mega-section">
 							<ul>
@@ -57,7 +57,7 @@
 							</ul>
 						</div>
 
-					</div>
+					</div> --}}
 				</li>
 				
 
@@ -93,14 +93,14 @@
 					</ul>
 				</li>
 
-				<li class="dropdown">
+				{{-- <li class="dropdown">
 					<a href="#">Shop</a>
 					<ul>
 						<li><a href="shop.html">Shop</a></li>
 						<li><a href="shop-product-page.html">Product Page</a></li>
 						<li><a href="shopping-cart.html">Cart</a></li>
 					</ul>
-				</li>
+				</li> --}}
 
 				<li class="dropdown">
 					<a href="#">Blog</a>
@@ -117,7 +117,7 @@
 				<li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
 
 				<!-- Cart Icon -->
-				<li class="user-icon"><a href="shopping-cart.html" title="Zona Usuario" ><i class="fa fa-user"></i></a></li> 
+				<li class="user-icon"><a href="shopping-cart.html" title="Zona Usuario" ><i class="fa fa-users"></i></a></li> 
 
 			</ul>
 		</nav>

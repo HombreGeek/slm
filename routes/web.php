@@ -14,5 +14,8 @@
 // Ruta a la pagina de inicio del sitio
 Route::name('home_path')->get('/', 'PagesController@home');
 
+// Ruta a la pagina de somos del sitio
+Route::name('about_path')->get('/somos', 'PagesController@about');
+
 // Ruta a la pagina administracion del sitio
 Route::name('admin_path')->get('/admin', 'PagesController@admin');

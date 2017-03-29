@@ -2,11 +2,18 @@
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8" />
-    <title>SLM Construcción S.A.</title>
+    <title>SLM Construcción S.A. @yield('title')</title>
 
     <!-- Mobile Specific Metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- CORE CSS 
+		<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" /> -->
+
+      <!-- CSS SMARTY
+    ==================================================     
+    <link href="{{ asset('css/essentials.css') }}" rel="stylesheet" type="text/css" />
+	<link href="{{ asset('css/layout.css') }}" rel="stylesheet" type="text/css" /> -->
 
     <!-- CSS
     ================================================== -->

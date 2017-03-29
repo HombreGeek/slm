@@ -1,128 +1,79 @@
 @extends('main')
 
-@section('title', ' | Inicio')
+@section('title', ' | Somos')
 
 @section('slider')
 
-    <!-- Revolution Slider -->
-    <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-
-    <!-- 5.0.7 auto mode -->
-        <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
-            <ul>
-
-                <!-- Slide  -->
-                <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="800" data-fsslotamount="7" data-saveperformance="off">
-
-                    <!-- Background -->
-                    <img src="{{ asset('img/slide-01.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="" />
-
-                    <!-- Caption-->
-                    <div class="tp-caption tp-shape tp-shapewrapper custom-caption tp-resizeme rs-parallaxlevel-0" id="slide-1-layer-1" data-x="['left','left','left','left']" data-hoffset="['0']" data-y="['middle','middle','middle','middle']" data-voffset="['0']" data-width="520" data-height="auto" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:0;opacity:0;s:1000;e:Power2.easeOutExpo;s:400;e:Power2.easeOutExpo" data-transform_out="" data-mask_in="x:0px;y:[20%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-responsive_offset="on">
-
-                        <!-- Caption Content -->
-                        <div class="caption-title">Maquinaria Pesada</div>
-                        <div class="caption-text">We specialize in a number of framing, trim and finish carpentry services. Our goal is complete satisfaction.</div>
-                        <a href="contact.html" class="button medium">Solicitar Servicio</a>
-                    </div>
-                </li>
-
-                <!-- Slide  -->
-                <li data-index="rs-2" data-transition="fadefrombottom" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="800" data-fsslotamount="7" data-saveperformance="off">
-
-                    <!-- Background -->
-                    <img src="{{ asset('img/slide-02.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="" />
-
-                    <!-- Caption-->
-                    <div class="tp-caption tp-shape tp-shapewrapper custom-caption tp-resizeme rs-parallaxlevel-0" id="slide-2-layer-2" data-x="['left','left','left','left']" data-hoffset="['0']" data-y="['middle','middle','middle','middle']" data-voffset="['0']" data-width="520" data-height="auto" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:0;opacity:0;s:1000;e:Power2.easeOutExpo;s:400;e:Power2.easeOutExpo" data-transform_out="" data-mask_in="x:0px;y:[20%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-responsive_offset="on">
-
-                        <!-- Caption Content -->
-                        <div class="caption-title">Concreto</div>
-                        <div class="caption-text"> A new coat of paint or is easy ways to refresh your home. We know what makes a great paint job.</div>
-                        <a href="contact.html" class="button medium">Solicitar servicio</a>
-                    </div>
-                </li>
-
-                <!-- Slide  -->
-                <li data-index="rs-3" data-transition="fadefromtop" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="800" data-fsslotamount="7" data-saveperformance="off">
-
-                    <!-- Background -->
-                    <img src="{{ asset('img/slide-03.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina="" />
-
-                    <!-- Caption-->
-                    <div class="tp-caption tp-shape tp-shapewrapper custom-caption tp-resizeme rs-parallaxlevel-0" id="slide-3-layer-3" data-x="['left','left','left','left']" data-hoffset="['0']" data-y="['middle','middle','middle','middle']" data-voffset="['0']" data-width="520" data-height="auto" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:0;opacity:0;s:1000;e:Power2.easeOutExpo;s:400;e:Power2.easeOutExpo" data-transform_out="" data-mask_in="x:0px;y:[20%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-responsive_offset="on">
-
-                        <!-- Caption Content -->
-                        <div class="caption-title">Acero Figurado</div>
-                        <div class="caption-text">Highly experienced in residential and commercial tiling, bathroom renevations, waterproofing, silicone work and soundproofing.</div>
-                        <a href="contact.html" class="button medium">Solicitar servicio</a>
-                    </div>
-                </li>
-
-
-            </ul>
-            <div class="tp-static-layers"></div>
-
-        </div>
-    </div>
-    <!-- Revolution Slider / End -->
-    
 @endsection
 
 @section('content')
 
+
+    
+			<!-- 
+				PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+			-->
+			<section class="page-header page-header-xlg parallax parallax-3" style="background-image:url({{asset('img/parallax-img.jpg')}})">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<h1>Somos</h1>
+
+					<!-- breadcrumbs -->
+					<ol class="breadcrumb">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Pages</a></li>
+						<li class="active">About Us</li>
+					</ol><!-- /breadcrumbs -->
+
+				</div>
+			</section>
+			<!-- /PAGE HEADER -->
+
+  {{--  <!-- Parallax Banner
+    ================================================== -->
+    <div class="parallax-banner margin-bottom-20 margin-top-45" style="background-image: url({{asset('img/parallax-img.jpg')}})">
+        <div class="container title-page">
+		<div class="row">
+			<div class="col-md-12 ">
+
+				<h2 class="">Somos</h2>
+				
+				<!-- Breadcrumbs -->
+				<nav id="breadcrumbs">
+					<ul>
+						<li><a href="#">Inicio</a></li>
+						<li>Somos</li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+	</div>
+    </div> --}}
+
+
+
+   
     <!-- Stages -->
 <div class="container">
 
-	<div class="row">
-		<div class="col-md-12">
-			<h3 class="headline centered with-border margin-bottom-0">Nuestras líneas de negocios</h3>
-		</div>
-	</div>
-
-	<div class="row">
-
-		<!-- Stage -->
-		<div class="col-md-3 col-sm-6">
-			<div class="stage">
-				<i class="reneva icon-4"></i>
-				<span>Venta</span>
-				<h4>Acero Figurado</h4>
-				<p>Curabitur sodales massa velit, id dapibus nunc efficitur at. Quisque elementum magna quis ante suscipit, quis fermentum augue viverra.</p>
-			</div>
-		</div>
-		
-		<!-- Stage -->
-		<div class="col-md-3 col-sm-6">
-			<div class="stage">
-				<i class="reneva icon-8"></i>
-				<span>Alquiler</span>
-				<h4>Maquinaria y equipo para la contrucción</h4> 
-				<p>Curabitur sodales massa velit, id dapibus nunc efficitur at. Quisque elementum magna quis ante suscipit, quis fermentum augue viverra.</p>
-			</div>
-		</div>
-		
-		<!-- Stage -->
-		<div class="col-md-3 col-sm-6">
-			<div class="stage">
-				<i class="reneva icon-14"></i>
-				<span>Venta</span>
-				<h4>Producción de Concreto</h4>
-				<p>Curabitur sodales massa velit, id dapibus nunc efficitur at. Quisque elementum magna quis ante suscipit, quis fermentum augue viverra.</p>
-			</div>
-		</div>
-
-		<!-- Stage -->
-		<div class="col-md-3 col-sm-6">
-			<div class="stage">
-				<i class="reneva icon-45"></i>
-				<span>Alquiler</span>
-				<h4>Materiales para la Construcción</h4>
-				<p>Curabitur sodales massa velit, id dapibus nunc efficitur at. Quisque elementum magna quis ante suscipit, quis fermentum augue viverra.</p>
-			</div>
-		</div>
-
-	</div>
+	
 
 </div>
 <!-- Stages / End -->
