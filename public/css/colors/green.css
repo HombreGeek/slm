@@ -31,8 +31,8 @@ a.button.border,
 .menu li.cart-icon a:hover,
 .menu  li.search a:hover,
 .tabs-nav li.active a {
-	color: #008000;
-	
+	/*color: #008000;*/
+	color: #8ab933;
 }
 
 body,
@@ -49,7 +49,7 @@ a.button.border:hover,
 .custom-caption,
 .ui-accordion .ui-accordion-header-active:hover,
 .ui-accordion .ui-accordion-header-active {
-	border-color: #008000;
+	border-color: #8ab933;
 }
 
 .qtyplus:hover,
@@ -61,12 +61,12 @@ a.button.border:hover,
 .flex-next:hover,
 a.button.border::before,
 .hover-border {
-    background: #008000;
+    background: #8ab933;
 }
 
 .menu ul .sfHover li a:hover,
 .mega a:hover {
-	background-color: #008000 !important;
+	background-color: #8ab933 !important;
 }
 
 #logo img,
@@ -108,10 +108,10 @@ table.basic-table th,
 .services-list li a:hover,
 .pagination-next-prev ul li a:hover,
 mark.color {
-	background-color: #008000;
+	background-color: #8ab933;
 }
 
+/*.service .service-overlay { background-color: rgba(0,129,219,0.95); }*/
+.service .service-overlay { background-color: rgba(138,185,51,0.95); }
 
-.service .service-overlay { background-color: rgba(0,129,219,0.95); }
-
-@media (max-width: 991px) { .tabs-nav li.active a { background-color: #008000; } }
+@media (max-width: 991px) { .tabs-nav li.active a { background-color: #8ab933; } }

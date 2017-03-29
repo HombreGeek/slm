@@ -143,7 +143,8 @@ body { border-top: 5px solid #666;}
 }
 
 .header-widget li .widget-content { float: left; max-width: 150px;  }
-.header-widget .sl-icon-location { font-size: 36px; margin: 5px 10px 0 8px;}
+/*.header-widget .sl-icon-location { font-size: 36px; margin: 5px 10px 0 8px;}*/
+.header-widget .sl-icon-location { font-size: 36px; margin: 20px 10px 0 8px;}
 
 .header-widget li span.title {
 	display: block;
@@ -1722,9 +1723,18 @@ ul.footer-links {
 	margin: 1px 0 2px 0;
 }
 
-/*/* Breadcrumbs 
+/* Breadcrumbs */
 #breadcrumbs {
-	position: absolute;
+	position:absolute;
+	font-size:12px;
+	top:50%; left:0;
+	margin-top:-15px;
+	background:transparent;
+	margin-bottom:0;
+	z-index:10;
+	right:0; 
+	left:auto;
+/*	position: absolute;
 	right: 0;
 	display: inline-block;
 	font-size: 13px;	
@@ -1736,9 +1746,9 @@ ul.footer-links {
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-}
+*/}
 
-#breadcrumbs ul { margin: 0; }
+#breadcrumbs ul { margin-right: 20px; }
 
 #breadcrumbs ul li a {
 	-webkit-transition: all 0.2s ease-in-out;
@@ -1752,23 +1762,26 @@ ul.footer-links {
 #breadcrumbs ul li a:hover { color: #666 }
 
 #breadcrumbs ul li {
+	color: #fff;
 	display: inline-block;
 	list-style: none;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 5px;
+	
 }
 
 #breadcrumbs ul li:first-child:before { display: none; }
 
 #breadcrumbs ul li:before {
+	/*content:"•";*/
 	content: "\f105";
 	font-family: "FontAwesome";
 	color: #fff;
-	color: #a0a0a0;
+	/*color: #a0a0a0;*/
 	font-size: 14px;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
-*/
+
 /* ---------------------------------- */
 /* Single Project Page
 ------------------------------------- */
@@ -4872,6 +4885,7 @@ table.basic-table { margin-bottom: 0; }
 	padding: 90px 0;
 }
 
+
 .parallax-banner:before {
 	position: absolute;
 	content: "";
@@ -4898,6 +4912,19 @@ table.basic-table { margin-bottom: 0; }
 	display: block;
 	left: 0;
 	text-align: center;
+	line-height: 46px;
+}
+
+.parallax-title2 {
+	position: relative;
+	z-index: 10;
+	font-size: 42px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: block;
+	left: 0;
+	/*text-align: center;*/
 	line-height: 46px;
 }
 

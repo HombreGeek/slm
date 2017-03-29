@@ -7,13 +7,9 @@
     <!-- Mobile Specific Metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <!-- CORE CSS 
-		<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" /> -->
 
-      <!-- CSS SMARTY
-    ==================================================     
-    <link href="{{ asset('css/essentials.css') }}" rel="stylesheet" type="text/css" />
-	<link href="{{ asset('css/layout.css') }}" rel="stylesheet" type="text/css" /> -->
+    <!-- CORE CSS -->
+		<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" /> 
 
     <!-- CSS
     ================================================== -->

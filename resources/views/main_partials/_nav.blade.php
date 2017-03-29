@@ -25,7 +25,7 @@
 			<ul class="menu" id="responsive">
 
 				<li class="dropdown">
-					<a href="index.html" class="current">Inicio</a>
+					<a href="{{ route('home_path')}}" class="{{ Request::is('/') ? "current" : "" }}">Inicio</a>
 					{{-- <ul>
 						<li><a href="index.html">Home 1</a></li>
 						<li><a href="index-2.html">Home 2</a></li>
@@ -34,7 +34,7 @@
 					</ul> --}}
 				</li>
 				<li>
-					<a href="#">Somos</a>
+					<a href="{{ route('about_path')}}" class="{{ Request::is('somos') ? "current" : "" }}">Somos</a>
 					{{-- <div class="mega two-cols">
 
 						<div class="mega-section">

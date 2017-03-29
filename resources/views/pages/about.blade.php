@@ -9,7 +9,7 @@
 @section('content')
 
 
-    
+    {{-- 
 			<!-- 
 				PAGE HEADER 
 				
@@ -43,16 +43,16 @@
 
 				</div>
 			</section>
-			<!-- /PAGE HEADER -->
+			<!-- /PAGE HEADER --> --}}
 
-  {{--  <!-- Parallax Banner
+  <!-- Parallax Banner
     ================================================== -->
-    <div class="parallax-banner margin-bottom-20 margin-top-45" style="background-image: url({{asset('img/parallax-img.jpg')}})">
-        <div class="container title-page">
+    <div class="parallax-banner margin-bottom-20" style="background-image: url({{asset('img/parallax-img.jpg')}})">
+        <div class="container">
 		<div class="row">
 			<div class="col-md-12 ">
 
-				<h2 class="">Somos</h2>
+				<h2 class="parallax-title2">Somos</h2>
 				
 				<!-- Breadcrumbs -->
 				<nav id="breadcrumbs">
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 	</div>
-    </div> --}}
+    </div> 
 
 
 
