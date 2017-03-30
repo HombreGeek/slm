@@ -14,7 +14,7 @@
 			<div class="col-md-4  col-sm-6">
 				<h4>Enlaces útiles</h4>
 				<ul class="footer-links">
-					<li><a href="#">¿Quiénes Somos?</a></li>
+					<li><a href="{{route('about_path')}}">¿Quiénes Somos?</a></li>
 					<li><a href="#">Servicios</a></li>
 					<li><a href="#">Proyectos</a></li>
 					<li><a href="#">Empleos</a></li>

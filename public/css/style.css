@@ -2210,6 +2210,9 @@ a.sidebar-btn span {
 .sidebar-textbox span { color: #666; display: inline-block; }
 .sidebar-textbox.color span { color: #fff; }
 
+/* Imagen pequeña usada en la vista somos */
+
+.img-peq { 	float:right; width: 150px; height: 150px; margin-right:10px }
 
 /* ---------------------------------- */
 /* Shop
@@ -4334,10 +4337,14 @@ h3.headline.small {
 
 h3.headline.with-border { padding-bottom: 35px;}
 
+
 .headline span.color { color: #666; }
 
 .headline.centered { text-align: center; }
-.headline.with-border { border-bottom: 1px solid #e0e0e0; width: 100%; padding-bottom: 25px; }
+.headline.with-border { border-bottom: 1px solid #8ab933; /* #e0e0e0;*/ width: 100%; padding-bottom: 5px; }
+
+/* Encabezado para la misión y visión de la pagina */
+h3.headline2.with-border { border-bottom: 2px solid #8ab933; width: 100%; padding-bottom: 5px; }
 
 .divider { display: inline-block; border-bottom: 1px solid #e0e0e0; width: 100%; padding-bottom: 25px; }
 
@@ -4943,6 +4950,7 @@ table.basic-table { margin-bottom: 0; }
 ------------------------------------- */
 .info-banner {
 	background: #f6f6f6;
+	/*background: #F8F8FF;*/
 	display: block;
 	padding: 35px 38px;
 	position: relative;
@@ -6100,3 +6108,18 @@ table.basic-table { margin-bottom: 0; }
 	#reset a.button:hover { color: #333; background-color: #fff; }
 	
 	@media only screen and (max-width: 1024px) {#style-switcher {display: none;}}
+
+
+	/* Call to Action */
+
+	section.call-to-action { padding:40px 0;} 
+
+
+	@media (max-width: 768px) {
+		.m-text-center {text-align:center;}
+		.call-to-action h1{font-size:15px; text-transform:uppercase; }
+	}
+	@media (max-width: 1024px) {
+		.m-text-center {text-align:center;}
+		.call-to-action h1{font-size:20px; text-transform:uppercase; }
+	}
