@@ -62,13 +62,13 @@
 				
 
 				<li class="dropdown">
-					<a href="#">Servicios</a>
-					<ul>
+					<a href="{{route('services_path')}}" class="{{ Request::is('servicios') ? "current" : "" }}">Servicios</a>
+					{{-- <ul>
 						<li><a href="services-1.html">Services List 1</a></li>
 						<li><a href="services-2.html">Services List 2</a></li>
 						<li><a href="single-service-1.html">Single Service Page 1</a></li>
 						<li><a href="single-service-2.html">Single Service Page 2</a></li>
-					</ul>
+					</ul> --}}
 				</li>
 
 				
@@ -113,8 +113,8 @@
 				<li><a href="contact.html">Contáctenos</a></li>
 
 
-				<!-- Search Icon-->		
-				<li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+				<!-- Search Icon		
+				<li class="search"><a href="#"><i class="fa fa-search"></i></a></li> -->
 
 				<!-- Cart Icon -->
 				<li class="user-icon"><a href="shopping-cart.html" title="Zona Usuario" ><i class="fa fa-users"></i></a></li> 

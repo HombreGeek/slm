@@ -16,6 +16,7 @@
                 <div class="col-md-12 ">
 
                     <h2 class="parallax-title2">Somos</h2>
+					
                     
                     <!-- Breadcrumbs -->
                     <nav id="breadcrumbs">
@@ -29,6 +30,7 @@
             </div>
 	    </div>
      </div> 
+	 
 <div class="container">
 	<div class="row sticky-wrapper ">
 
@@ -38,56 +40,10 @@
 				<!-- Button with popup -->
 				<a href="#small-dialog" class="sidebar-btn popup-with-zoom-anim">
 					<i class="sl sl-icon-envolope"></i>
-					<span>Contáctenos</span>
+					<span>Solicitar servicios</span>
 				</a>
-				
-				<!-- popup -->
-				<div id="small-dialog" class="zoom-anim-dialog mfp-hide apply-popup">
-
-					<div class="small-dialog-headline">
-						<h4>Solicitar Servicio</h4>
-					</div>
-
-					<div class="small-dialog-content">
-						<div id="contact-message"></div>
-
-						<form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="on" />
-
-							<div>
-								<input name="name" type="text" id="name" placeholder="Su Nombre" required="required" />
-							</div>
-							<div>
-								<input name="email" type="email" id="email" placeholder="Correo Electrónico" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" required="required" />
-							</div>
-
-							<div>
-								<input name="phone" type="tel" id="phone" size="30" placeholder="Teléfono (opcional)" />
-							</div>
-
-							<div>
-								<select name="subject" id="subject" required="required">
-									<option value="" />Seleccione el Asunto
-									<option value="Painting" />Painting
-									<option value="Repair" />Repair
-									<option value="Carpentry" />Carpentry
-									<option value="Plumbing" />Plumbing
-									<option value="Remodeling" />Remodeling
-									<option value="Electrical" />Electrical
-									<option value="Other" />Otros
-								</select>
-							</div>
-
-							<div>
-								<textarea name="comments" cols="40" rows="3" id="comments" placeholder="Mensaje" spellcheck="true" required="required"></textarea>
-							</div>
-
-							<div class="divider"></div>
-
-							<input type="submit" class="submit" id="submit" value="Enviar" />
-
-						</form>
-					</div>
-				</div>
+				<!--Formulario para hacer solicitud de servicio -->
+				@include('main_partials._solicitar-servicio-form')
 
 
 				<!-- text box -->
@@ -162,7 +118,7 @@
                             <h3>Su Productividad es Nuestro Objetivo</h3>            
                         </div>
 
-                        <a href="my-account.html" class="button border">Solicitar Servicio</a>
+                        <a href="#small-dialog" class=" button border popup-with-zoom-anim ">Solicitar Servicio</a>
                         <div class="clearfix"></div>
                 </div>
             </div>

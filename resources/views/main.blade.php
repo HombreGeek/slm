@@ -12,7 +12,7 @@
 <!-- Header
 ================================================== -->
 
-@include('main_partials._logo_header')
+@include('main_partials._header-logo')
 
 <!-- Navigation
 ================================================== -->

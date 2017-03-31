@@ -1900,6 +1900,9 @@ ul.footer-links {
 	display: inline-block;
 	max-width: 100%;
 	overflow: hidden;
+	/* Margen izq. colocado para cuadrar las 4 lineas de negocio
+	en la pagina servicios*/
+	margin-left: 60px;
 	margin-bottom: 30px;
 	float: left;
 }
@@ -2152,10 +2155,12 @@ ul.footer-links {
 a.sidebar-btn {
 	background-color: #666;
 	width: 100%;
-	padding: 24px 26px;
+	padding: 22px 15px;
 	color: #fff;
+	font-size: 14px;
 	font-weight: 600;
-	line-height: 22px;
+	/*line-height: 22px;*/
+	line-height: 14px;
 	display: inline-block;
 	position: relative;
 	-webkit-transition: all 0.3s;
@@ -2167,8 +2172,9 @@ a.sidebar-btn:hover {
 }
 
 a.sidebar-btn i {
-	font-size: 34px;
-	float: left;
+	/*font-size: 34px;*/
+	font-size: 27px;	
+	/*float: left;*/
 	padding-right: 18px;
 	border-right: 1px solid rgba(255,255,255,0.3);
 	display: inline-block;
@@ -2179,7 +2185,8 @@ a.sidebar-btn i {
 }
 
 a.sidebar-btn span {
-	margin-left: 73px;
+	/*margin-left: 73px;*/
+	margin-left: 60px;
 	display: inline-block;
 }
 

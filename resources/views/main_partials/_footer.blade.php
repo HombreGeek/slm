@@ -15,7 +15,7 @@
 				<h4>Enlaces útiles</h4>
 				<ul class="footer-links">
 					<li><a href="{{route('about_path')}}">¿Quiénes Somos?</a></li>
-					<li><a href="#">Servicios</a></li>
+					<li><a href="{{route('services_path')}}">Servicios</a></li>
 					<li><a href="#">Proyectos</a></li>
 					<li><a href="#">Empleos</a></li>
                     <li><a href="#">Contáctenos</a></li>
@@ -47,7 +47,7 @@
 		<!-- Copyright -->
 		<div class="row">
 			<div class="col-md-12">
-				<div class="copyrights">©  Todos los Derechos Reservados 2017 por <a href="{{route('home_path')}}"> SLM Construcción S.A.</a> <br> </div>
+				<div class="copyrights">©  Todos los Derechos Reservados 2017. <a href="{{route('home_path')}}"> SLM Construcción S.A.</a> <br> </div>
                 <div class="creado-por">
                     Sitio implementado por el <a href="{{route('home_path')}}">Ing. Pedro Araujo</a>
                 </div>

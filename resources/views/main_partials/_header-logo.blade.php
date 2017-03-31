@@ -29,7 +29,9 @@
 						</div>
 					</li>
 
-					<li class="with-btn"><a href="contact.html" class="button border medium">Solicitar Servicio</a></li>
+					<li class="with-btn"><a href="#small-dialog" class=" button border  popup-with-zoom-anim ">Solicitar Servicio</a></li>
+					<!--Formulario para hacer solicitud de servicio -->
+				    @include('main_partials._solicitar-servicio-form')
 				</ul>
 			</div>
 			<div class="clearfix"></div>

@@ -105,7 +105,7 @@
 		<!-- Stage -->
 		<div class="col-md-3 col-sm-6">
 			<div class="stage">
-				<i class="reneva icon-14"></i>
+				<i class="reneva icon-39"></i>
 				<span>Venta</span>
 				<h4>Producción de Concreto</h4>
 				<p>Curabitur sodales massa velit, id dapibus nunc efficitur at. Quisque elementum magna quis ante suscipit, quis fermentum augue viverra.</p>
@@ -115,7 +115,7 @@
 		<!-- Stage -->
 		<div class="col-md-3 col-sm-6">
 			<div class="stage">
-				<i class="reneva icon-45"></i>
+				<i class="reneva icon-14"></i>
 				<span>Alquiler</span>
 				<h4>Materiales para la Construcción</h4>
 				<p>Curabitur sodales massa velit, id dapibus nunc efficitur at. Quisque elementum magna quis ante suscipit, quis fermentum augue viverra.</p>
