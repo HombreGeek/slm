@@ -2118,7 +2118,7 @@ ul.footer-links {
 	display: inline-block;
 	background-color: #f6f6f6;
 	color: #333;
-	font-size: 14px;
+	font-size: 12px; /*font-size: 12px;*/
 	-wekbit-transition: all 0.3s;
 	transition: all 0.3s;
 	font-weight: 600;
@@ -4940,6 +4940,15 @@ table.basic-table { margin-bottom: 0; }
 	left: 0;
 	/*text-align: center;*/
 	line-height: 46px;
+}
+
+.parallax-title2 span {
+	display: block;
+	padding: 10px 0 0 0;
+	font-size: 19px;
+	font-weight: 300;
+	opacity: 0.65;
+	line-height: 29px;
 }
 
 .parallax-title span {

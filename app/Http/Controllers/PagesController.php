@@ -17,6 +17,14 @@ class PagesController extends Controller
      public function services(){
         return view('pages.services');
     }
+
+     public function aceroFigurado(){
+        return view('pages.aceroFigurado');
+    }
+
+    public function maquinariaEquipos(){
+        return view('pages.maquinariaEquipos');
+    }
     
     public function admin(){
 

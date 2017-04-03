@@ -63,12 +63,13 @@
 
 				<li class="dropdown">
 					<a href="{{route('services_path')}}" class="{{ Request::is('servicios') ? "current" : "" }}">Servicios</a>
-					{{-- <ul>
-						<li><a href="services-1.html">Services List 1</a></li>
-						<li><a href="services-2.html">Services List 2</a></li>
+					 <ul>
+						<li><a href="{{route('aceroFigurado_path')}}">Venta Acero Figurado</a></li>
+						<li><a href="{{route('maquinariaEquipos_path')}}">Maquinaria y Equipos</a></li>
+						{{--<li><a href="services-2.html">Services List 2</a></li>
 						<li><a href="single-service-1.html">Single Service Page 1</a></li>
-						<li><a href="single-service-2.html">Single Service Page 2</a></li>
-					</ul> --}}
+						<li><a href="single-service-2.html">Single Service Page 2</a></li> --}}
+					</ul>
 				</li>
 
 				

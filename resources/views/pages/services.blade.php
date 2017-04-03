@@ -15,7 +15,8 @@
             <div class="row">
                 <div class="col-md-12 ">
 
-                    <h2 class="parallax-title2">Servicios</h2>
+                    <h2 class="parallax-title2">Servicios <span>Nuestra Línea de Negocio</span></h2>
+					
                                         
                     <!-- Breadcrumbs -->
                     <nav id="breadcrumbs">
@@ -42,7 +43,7 @@
 					<h4>Venta de Acero Figurado</h4>
 					<div class="hidden-part">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-						<a href="single-service-1.html">Leer más</a>
+						<a href="{{route('aceroFigurado_path')}}">Leer más</a>
 					</div>
 				</div>
 			</div>
@@ -57,7 +58,7 @@
 					<h4>Alquiler de Maquinaria y Equipo</h4>
 					<div class="hidden-part">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="single-service-1.html">Leer más</a>
+						<a href="{{route('maquinariaEquipos_path')}}">Leer más</a>
 					</div>
 				</div>
 			</div>

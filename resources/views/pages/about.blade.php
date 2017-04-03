@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-12 ">
 
-                    <h2 class="parallax-title2">Somos</h2>
+                    <h2 class="parallax-title2">Somos <span>Una Empresa Vallenata</span></h2>
 					
                     
                     <!-- Breadcrumbs -->

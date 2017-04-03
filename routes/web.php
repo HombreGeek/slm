@@ -20,5 +20,11 @@ Route::name('about_path')->get('/somos', 'PagesController@about');
 // Ruta a la pagina de servicios del sitio
 Route::name('services_path')->get('/servicios', 'PagesController@services');
 
+// Ruta a la pagina de servicios Venta Acero Figurado
+Route::name('aceroFigurado_path')->get('/servicios/acero-figurado', 'PagesController@aceroFigurado');
+
+// Ruta a la pagina de servicios Maquinarias y Equipos
+Route::name('maquinariaEquipos_path')->get('/servicios/maquinaria-equipos-construccion', 'PagesController@maquinariaEquipos');
+
 // Ruta a la pagina administracion del sitio
 Route::name('admin_path')->get('/admin', 'PagesController@admin');
