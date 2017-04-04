@@ -26,6 +26,14 @@ class PagesController extends Controller
         return view('pages.maquinariaEquipos');
     }
     
+    public function concreto(){
+        return view('pages.concreto');
+    }
+
+     public function materialesConstru(){
+        return view('pages.materialesConstru');
+    }
+
     public function admin(){
 
         return view('admin.index');

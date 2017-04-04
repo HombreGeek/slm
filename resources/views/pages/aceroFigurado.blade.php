@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-12 ">
 
-                    <h2 class="parallax-title2">Acero Figurado<span>Venta de Acero</span></h2>
+                    <h2 class="parallax-title2">Venta<span>Acero Figurado</span></h2>
 					
                                         
                     <!-- Breadcrumbs -->
@@ -46,8 +46,8 @@
 				<li><a href="{{route('services_path')}}">Todos los Servicios</a></li>
 				<li><a href="{{route('aceroFigurado_path')}}" class="{{ Request::is('servicios/acero-figurado') ? "active" : "" }}">Acero Figurado</a></li>
 				<li><a href="{{route('maquinariaEquipos_path')}}">Maquinaria y Equipos</a></li>
-				<li><a href="#">Producción de Concreto</a></li>
-				<li><a href="#">Material de Construcción</a></li>
+				<li><a href="{{route('concreto_path')}}">Producción de Concreto</a></li>
+				<li><a href="{{route('materialesConstru_path')}}">Material de Construcción</a></li>
 			</ul>
 		</div>
 		

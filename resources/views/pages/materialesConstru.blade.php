@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', ' | Alquiler Maquinarias y Equipos para la Construcción')
+@section('title', ' | Alquiler Materiales de construcción')
 
 @section('slider')
 
@@ -10,20 +10,20 @@
 
   <!-- Parallax Banner
     ================================================== -->
-    <div class="parallax-banner margin-bottom-20" style="background-image: url({{asset('img/maquinaria-equipos-servicio.jpg')}})">
+    <div class="parallax-banner margin-bottom-20" style="background-image: url({{asset('img/materiales-construccion.jpg')}})">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 ">
 
-                    <h2 class="parallax-title2">Alquiler<span>Maquinarias y Equipos para la construcción</span></h2>
+                    <h2 class="parallax-title2">Alquiler<span>Materiales de construcción</span></h2>
 					
                                         
                     <!-- Breadcrumbs -->
                     <nav id="breadcrumbs">
                         <ul>
                             <li><a href="{{route('home_path')}}">Inicio</a></li>
-                            <li><a href="{{route('services_path')}}">Servicios</a></li>
-							<li>Maquinaria y Equipos</li>
+                            <li><a href="{{route('materialesConstru_path')}}">Servicios</a></li>
+							<li>Materiales de construcción</li>
                         </ul>
                     </nav>
 
@@ -44,9 +44,10 @@
 		<div class="col-md-3">
 			<ul class="services-list sticky">
 				<li><a href="{{route('services_path')}}">Todos los Servicios</a></li>
-				<li><a href="{{route('aceroFigurado_path')}}">Acero Figurado</a></li>
-				<li><a href="{{route('maquinariaEquipos_path')}}" class="{{ Request::is('servicios/maquinaria-equipos-construccion') ? "active" : "" }}">Maquinaria y Equipos</a></li><li><a href="{{route('concreto_path')}}" >Producción de Concreto</a></li>
-				<li><a href="{{route('materialesConstru_path')}}">Material de Construcción</a></li>
+				<li><a href="{{route('aceroFigurado_path')}}" >Acero Figurado</a></li>
+				<li><a href="{{route('maquinariaEquipos_path')}}">Maquinaria y Equipos</a></li>
+				<li><a href="{{route('concreto_path')}}">Producción de Concreto</a></li>
+				<li><a href="{{route('materialesConstru_path')}}" class="{{ Request::is('servicios/alquiler-materiales-construccion') ? "active" : "" }}">Material de Construcción</a></li>
 			</ul>
 		</div>
 		
@@ -57,14 +58,14 @@
 			<div class="row">
 				<div class="col-md-6">
 
-					<a href="{{asset('img/maquinaria-equipos-servicio01.jpg')}}" class="img-hover mfp-gallery margin-bottom-10"><img src="{{asset('img/maquinaria-equipos-servicio01.jpg')}}" alt="" /></a>
+					<a href="{{asset('img/materiales-construccion02.jpg')}}" class="img-hover mfp-gallery margin-bottom-10"><img src="{{asset('img/materiales-construccion02.jpg')}}" alt="" /></a>
 					<h4 class="headline with-border margin-bottom-20">Somos Especialistas en</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, saepe, temporibus! Neque quidem quo delectus, tempore. Odit maiores alias temporibus, inventore tempore.  </p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores doloremque, molestias tempora eveniet consequatur, quibusdam sapiente sed porro veritatis</p>
 				</div>
 
 				<div class="col-md-6">
-					<a href="{{asset('img/maquinaria-equipos-servicio02.jpg')}}" class="img-hover mfp-gallery margin-bottom-10"><img src="{{asset('img/maquinaria-equipos-servicio02.jpg')}}" alt="" /></a>
+					<a href="{{asset('img/materiales-construccion03.jpg')}}" class="img-hover mfp-gallery margin-bottom-10"><img src="{{asset('img/materiales-construccion03.jpg')}}" alt="" /></a>
 					<h4 class="headline with-border margin-bottom-20">Nuestra garantía de servicio</h4>
 					<ul class="list-1 alt">
 						<li>Custom home framing,</li>

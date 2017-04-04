@@ -70,10 +70,10 @@
 				<img src="{{asset('img/service-03.jpg')}}" alt="" />
 				<div class="service-overlay">
 					<i class="reneva icon-39"></i>
-					<h4>Venta y Producción de Concreto</h4>
+					<h4>Producción de Concreto</h4>
 					<div class="hidden-part">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="single-service-2.html">Leer más</a>
+						<a href="{{route('concreto_path')}}" >Leer más</a>
 					</div>
 				</div>
 			</div>
@@ -85,10 +85,10 @@
 				<img src="{{asset('img/service-04.jpg')}}" alt="" />
 				<div class="service-overlay">
 					<i class="reneva icon-14"></i>
-					<h4>Alquiler de materiales de contrucción</h4>
+					<h4>Materiales de contrucción</h4>
 					<div class="hidden-part">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="single-service-2.html">Leer más</a>
+						<a href="{{route('materialesConstru_path')}}">Leer más</a>
 					</div>
 				</div>
 			</div>

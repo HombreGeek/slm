@@ -26,5 +26,11 @@ Route::name('aceroFigurado_path')->get('/servicios/acero-figurado', 'PagesContro
 // Ruta a la pagina de servicios Maquinarias y Equipos
 Route::name('maquinariaEquipos_path')->get('/servicios/maquinaria-equipos-construccion', 'PagesController@maquinariaEquipos');
 
+// Ruta a la pagina de servicios Producción de Concreto
+Route::name('concreto_path')->get('/servicios/venta-produccion-concreto', 'PagesController@concreto');
+
+// Ruta a la pagina de servicios Alquiler Materiales de Construcción
+Route::name('materialesConstru_path')->get('/servicios/alquiler-materiales-construccion', 'PagesController@materialesConstru');
+
 // Ruta a la pagina administracion del sitio
 Route::name('admin_path')->get('/admin', 'PagesController@admin');
