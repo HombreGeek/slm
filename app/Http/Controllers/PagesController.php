@@ -38,6 +38,10 @@ class PagesController extends Controller
         return view('pages.allProjects');
     }
 
+    public function nameProject(){
+        return view('pages.singleProject');
+    }
+
     public function admin(){
 
         return view('admin.index');

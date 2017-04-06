@@ -59,7 +59,7 @@
 				
 				<!-- Item -->
 				<div class="isotope-item col-md-4 col-sm-6 CC">
-					<a href="single-project-content-right.html">
+					<a href="{{route('nameProject_path')}}">
 						<img src="{{asset('img/latest-project-01.jpg')}}" alt="" />
 						<div class="overlay">
 							<div class="overlay-content">
