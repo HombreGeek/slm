@@ -77,10 +77,10 @@
 
 				
 				<li class="dropdown">
-					<a href="#">Proyectos</a>
-					<ul>
+					<a href="{{route('allProjects_path')}}" class="{{ Request::is('servicios/nuestros-proyectos-participacion-obras') ? "current" : "" }}">Proyectos</a>
+					{{--<ul>
 						<li><a href="project-categories.html">Categories</a></li>
-						<li><a href="all-projects.html">All Projects</a></li>
+						 <li><a href="all-projects.html">All Projects</a></li>
 						<li><a href="all-projects-full-width.html">All Projects Full-Width</a></li>
 						<li><a href="#">Single Project Page</a>
 							<ul>
@@ -93,8 +93,8 @@
 						</li>
 						<li><a href="all-projects-before-after.html">Before & After</a></li>
 						<li><a href="single-category.html">Single Category</a></li>
-						<li><a href="single-category-full-width.html">Single Category Full-Width</a></li>
-					</ul>
+						<li><a href="single-category-full-width.html">Single Category Full-Width</a></li> 
+					</ul>--}}
 				</li>
 
 				{{-- <li class="dropdown">

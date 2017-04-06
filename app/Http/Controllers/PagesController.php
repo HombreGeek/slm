@@ -30,8 +30,12 @@ class PagesController extends Controller
         return view('pages.concreto');
     }
 
-     public function materialesConstru(){
+    public function materialesConstru(){
         return view('pages.materialesConstru');
+    }
+
+    public function allProjects(){
+        return view('pages.allProjects');
     }
 
     public function admin(){
