@@ -16,9 +16,9 @@
 				<ul class="footer-links">
 					<li><a href="{{route('about_path')}}">¿Quiénes Somos?</a></li>
 					<li><a href="{{route('services_path')}}">Servicios</a></li>
-					<li><a href="#">Proyectos</a></li>
+					<li><a href="{{route('allProjects_path')}}">Proyectos</a></li>
 					<li><a href="#">Empleos</a></li>
-                    <li><a href="#">Contáctenos</a></li>
+                    <li><a href="{{route('contact_path')}}">Contáctenos</a></li>
 					
 				</ul>
                 {{--

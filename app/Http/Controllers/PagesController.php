@@ -34,6 +34,10 @@ class PagesController extends Controller
         return view('pages.materialesConstru');
     }
 
+    public function contact(){
+        return view('pages.contact');
+    }
+
     public function allProjects(){
         return view('pages.allProjects');
     }

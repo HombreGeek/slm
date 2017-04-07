@@ -114,7 +114,7 @@
 					</ul>
 				</li>
 
-				<li><a href="contact.html">Contáctenos</a></li>
+				<li><a href="{{route('contact_path')}}" class="{{ Request::is('contactenos') ? "current" : "" }}">Contáctenos</a></li>
 
 
 				<!-- Search Icon		

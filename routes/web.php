@@ -32,10 +32,15 @@ Route::name('concreto_path')->get('/servicios/venta-produccion-concreto', 'Pages
 // Ruta a la pagina de servicios Alquiler Materiales de Construcción
 Route::name('materialesConstru_path')->get('/servicios/alquiler-materiales-construccion', 'PagesController@materialesConstru');
 
+// Ruta a la pagina de servicios Alquiler Materiales de Construcción
+Route::name('contact_path')->get('/contactenos', 'PagesController@contact');
+
+
+
 // Ruta a la pagina de Projectos
 Route::name('allProjects_path')->get('/nuestros-proyectos', 'PagesController@allProjects');
 
-// Ruta a la pagina de Projectos
+// Ruta a la pagina del detalle de un Projecto
 Route::name('nameProject_path')->get('/nuestros-proyectos/name-proyect', 'PagesController@nameProject');
 
 // Ruta a la pagina administracion del sitio
