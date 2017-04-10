@@ -157,7 +157,7 @@
         <div class="full-width projects">
             
             <!-- Item -->
-            <a href="single-project-content-right.html" class="kitchens clickable">
+            <a href="{{route('nameProject_path')}}" class="kitchens clickable">
                 <img src="{{asset('img/latest-project-01.jpg')}}" alt="" />
                 <div class="overlay">
                     <div class="overlay-content">
