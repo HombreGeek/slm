@@ -121,7 +121,7 @@
 				<li class="search"><a href="#"><i class="fa fa-search"></i></a></li> -->
 
 				<!-- Cart Icon -->
-				<li class="user-icon"><a href="shopping-cart.html" title="Zona Usuario" ><i class="fa fa-users"></i></a></li> 
+				<li class="user-icon"><a href="{{route('admin_path')}}" title="Zona Usuario" ><i class="fa fa-users"></i></a></li> 
 
 			</ul>
 		</nav>
