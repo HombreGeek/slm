@@ -72,7 +72,7 @@
 			<div class="col-md-12 margin-bottom-40">
 
                 <h2 class="margin-bottom-40" >¿Quiénes Somos?</h2>
-                <p><img class="img-peq" src="{{asset('img/smart-min.png')}}" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt totam illum temporibus velit nesciunt nisi suscipit quod rerum, at. Ipsum odio adipisci dignissimos repellendus neque itaque rem minus fuga laboriosam.</p>
+                <p><img class="img-peq" src="{{asset('img/slm-construccion-logo2.svg')}}" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt totam illum temporibus velit nesciunt nisi suscipit quod rerum, at. Ipsum odio adipisci dignissimos repellendus neque itaque rem minus fuga laboriosam.</p>
             </div>
             
 
