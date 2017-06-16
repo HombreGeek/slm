@@ -5,7 +5,7 @@
 
 			<div class="col-md-3 col-sm-12">
 				<div id="logo">
-					<a href="{{ route('home_path')}}"><img src="{{ asset('img/logo.png') }}" alt="SLM Contrucción S.A." /></a>
+					<a href="{{ route('home_path')}}"><img src="{{ asset('img/slm-construcciones-logo.svg') }}" alt="SLM Contrucción S.A." /></a>
 				</div>
 			</div>
 

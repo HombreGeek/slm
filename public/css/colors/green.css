@@ -1,11 +1,13 @@
 /* ------------------------------------------------------------------- */
+
+
 /*Green #0081db
 ---------------------------------------------------------------------- */
 
 a,
 .header-widget li i,
-.menu > li a.current.with-ul:after,
-.menu > li.sfHover .with-ul:after,
+.menu>li a.current.with-ul:after,
+.menu>li.sfHover .with-ul:after,
 .featured-service i,
 .stage i,
 .stage span,
@@ -14,12 +16,9 @@ a,
 .meta-tags span a:hover,
 .image-edge-content h4,
 .headline span.color,
-.menu > li a.current,
-.menu > li a:hover,
-
-
-
-.menu > li.sfHover a,
+.menu>li a.current,
+.menu>li a:hover,
+.menu>li.sfHover a,
 a.button.border,
 .list-4 li:before,
 .list-3 li:before,
@@ -29,16 +28,16 @@ a.button.border,
 .close-search a:hover,
 .info-banner-fw a:hover,
 .menu li.cart-icon a:hover,
-.menu  li.search a:hover,
+.menu li.search a:hover,
 .tabs-nav li.active a {
-	/*color: #008000;*/
-	color: #8ab933;
+    /*color: #008000;*/
+    color: #B3CC0F;
 }
 
 body,
-.menu > li a.current,
-.menu > li a:hover,
-.menu > li.sfHover a,
+.menu>li a.current,
+.menu>li a:hover,
+.menu>li.sfHover a,
 .mega,
 .dropdown ul,
 #price-range .ui-slider .ui-slider-handle,
@@ -49,7 +48,7 @@ a.button.border:hover,
 .custom-caption,
 .ui-accordion .ui-accordion-header-active:hover,
 .ui-accordion .ui-accordion-header-active {
-	border-color: #8ab933;
+    border-color: #B3CC0F;
 }
 
 .qtyplus:hover,
@@ -57,16 +56,16 @@ a.button.border:hover,
 .zeus .tp-title-wrap,
 .mfp-arrow:hover,
 #price-range .ui-slider .ui-slider-handle,
-.flex-prev:hover, 
+.flex-prev:hover,
 .flex-next:hover,
 a.button.border::before,
 .hover-border {
-    background: #8ab933;
+    background: #B3CC0F;
 }
 
 .menu ul .sfHover li a:hover,
 .mega a:hover {
-	background-color: #8ab933 !important;
+    background-color: #B3CC0F !important;
 }
 
 #logo img,
@@ -108,10 +107,18 @@ table.basic-table th,
 .services-list li a:hover,
 .pagination-next-prev ul li a:hover,
 mark.color {
-	background-color: #8ab933;
+    background-color: #B3CC0F;
 }
 
-/*.service .service-overlay { background-color: rgba(0,129,219,0.95); }*/
-.service .service-overlay { background-color: rgba(138,185,51,0.95); }
 
-@media (max-width: 991px) { .tabs-nav li.active a { background-color: #8ab933; } }
+/*.service .service-overlay { background-color: rgba(0,129,219,0.95); }*/
+
+.service .service-overlay {
+    background-color: rgba(138, 185, 51, 0.95);
+}
+
+@media (max-width: 991px) {
+    .tabs-nav li.active a {
+        background-color: #B3CC0F;
+    }
+}
